@@ -52,7 +52,6 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
 
-</RelativeLayout>
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -65,5 +64,7 @@
             android:id= "@+id/display_row"
             android:layout_marginTop="280dip"/>
 
+
     </TableLayout>
+    </RelativeLayout>
 </LinearLayout>

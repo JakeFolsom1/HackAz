@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Ingredients"
+        android:textSize="20dp"
         />
 
     <Spinner
@@ -33,11 +34,31 @@
         android:gravity="bottom">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="0.10"
-            android:text="Button" />
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:text="Add Ingredient"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:text="Done"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorPrimary"
+            />
     </RelativeLayout>
 </LinearLayout>
