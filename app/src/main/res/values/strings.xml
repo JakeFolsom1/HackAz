@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">FoodMaker</string>
+    <string name="app_name">Cuisine Genius</string>
     <string name="title_home">Add an ingredient</string>
-
+    <string name="spinner_prompt">Select from the list of ingredients</string>
+    <string name="ingredients_prompt">Ingredients</string>
 </resources>
