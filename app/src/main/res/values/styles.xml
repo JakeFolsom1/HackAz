@@ -4,8 +4,17 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name = "android:actionBarStyle">@style/ActionBar</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name ="android:textColorPrimary">@android:color/black</item>
     </style>
-
+    <style name = "ActionBar" parent = "@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">
+            @style/ActionBar.Text
+        </item>
+    </style>
+    <style name="ActionBar.Text" parent= "@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name = "android:textColor">@android:color/black</item>
+    </style>
 </resources>
