@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
-    tools:context="com.example.hackaz.HomePage">
+    tools:context="com.example.hackaz.HomePage"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background=""
         android:gravity="center"
         android:text="Ingredients"
         />
@@ -24,7 +24,20 @@
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown"
         android:prompt="@string/spinner_prompt"
-        android:entries="@array/ingredients_arrays"
-        />
+        android:entries="@array/ingredients_array"
+        android:layout_weight="0.10" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.10"
+            android:text="Button" />
+    </RelativeLayout>
 </LinearLayout>

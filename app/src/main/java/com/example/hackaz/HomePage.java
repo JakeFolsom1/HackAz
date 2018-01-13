@@ -16,13 +16,13 @@ import android.widget.EditText;
 public class HomePage extends AppCompatActivity {
     private TextView mTextMessage;
     private BottomNavigationView.OnNavigationItemReselectedListener onNavigationItemReselectedListener
-             = new BottomNavigationView.OnNavigationItemReselectedListener() {
-        @Override
-        public void onNavigationItemReselected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                default:
+                    = new BottomNavigationView.OnNavigationItemReselectedListener() {
+                @Override
+                public void onNavigationItemReselected(@NonNull MenuItem item) {
+                    switch (item.getItemId()) {
+                        default:
 
-            }
+                    }
         }
     };
     public void openIngredients(View view) {

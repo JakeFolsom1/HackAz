@@ -1,2 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+<string-array name = "ingredients_array">
+     <item>
+         Bacon
+     </item>
+    <item>
+    Baking Powder
+    </item>
+    <item>
+    Batter
+    </item>
+    <item>
+    Bell Pepper
+    </item>
+    <item>
+    Butter
+    </item>
+    <item>
+    Cheese
+    </item>
+    <item>
+    Chocolate (Dark)
+    </item>
+    <item>
+    Chocolate (Milk)
+    </item>
+    <item>
+    Chocolate (White)
+    </item>
+    <item>
+    Cucumber
+    </item>
+    <item>
+    Flour
+    </item>
+    <item>
+    Ham
+    </item>
+    <item>
+    Hamburger Buns
+    </item>
+    <item>
+    Jelly
+    </item>
+    <item>
+    Lemon
+    </item>
+    <item>
+    Lettuce
+    </item>
+    <item>
+    Mayo
+    </item>
+    <item>
+    Milk
+    </item>
+    <item>
+    Noodles (Ramen)
+    </item>
+    <item>
+    Oil (Canola)
+    </item>
+    <item>
+    Oil (Olive)
+    </item>
+    <item>
+    Oil (Vegetable)
+    </item>
+    <item>
+    Onion
+    </item>
+    <item>
+    Peanut Butter
+    </item>
+    <item>
+    Rice (White)
+    </item>
+    <item>
+    Saffron
+    </item>
+    <item>
+    Salt
+    </item>
+    <item>
+    Sprinkles
+    </item>
+    <item>
+    Sugar
+    </item>
+    <item>
+    Tomato
+    </item>
+    <item>
+    Vanilla Extract
+    </item>
+    <item>
+    Wheat Bread
+    </item>
+</string-array>
+</resources>
