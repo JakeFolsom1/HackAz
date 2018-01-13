@@ -6,32 +6,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.hackaz.HomePage">
-
-    <FrameLayout
-        android:id="@+id/content"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <TextView
-            android:id="@+id/message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="@string/title_home" />
-
-    </FrameLayout>
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
+<RelativeLayout
+    android:layout_width="500dp"
+    android:layout_height="100dp">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
-        app:menu="@menu/navigation" />
+        android:layout_marginLeft="345dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:onClick="openIngredients"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="match_parent"
+        android:text="Add new Ingredients"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/floatingActionButton2"
+        android:layout_alignEnd="@+id/floatingActionButton2"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toLeftOf="@id/floatingActionButton2"
+        android:textSize="@dimen/activity_vertical_margin"
+        />
+
+</RelativeLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/expandableTable"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id= "@+id/display_row"
+            android:layout_marginTop="280dip"/>
+
+    </TableLayout>
 </LinearLayout>
